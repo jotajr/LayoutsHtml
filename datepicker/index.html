@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.standalone.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="input-group date">
+            <input type="text" class="form-control" id="datepicker" placeholder="DD/MM/AAAA">
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/locales/bootstrap-datepicker.pt-BR.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#datepicker').datepicker({
+                language: 'pt-BR'
+            });
+        });
+    </script>
+</body>
+
+</html>
